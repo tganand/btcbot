@@ -8,7 +8,7 @@ nvm install 20
 npm install -g pm2
 
 mkdir -p ~/btc-momentum-bot && cd ~/btc-momentum-bot
-curl -L -o ~/bot.tar.gz "https://raw.githubusercontent.com/tganand/btcbot/main/bot14.tar.gz?t=$(date +%s)"
+curl -L -o ~/bot.tar.gz "https://raw.githubusercontent.com/tganand/btcbot/main/bot15.tar.gz?t=$(date +%s)"
 tar -xzf ~/bot.tar.gz
 npm install
 npm run build
